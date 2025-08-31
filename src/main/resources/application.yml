@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: CSV Processing Demo
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+file:
+  rootDir: uploads
